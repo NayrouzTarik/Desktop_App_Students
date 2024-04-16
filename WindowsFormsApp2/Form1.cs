@@ -87,7 +87,7 @@ namespace WindowsFormsApp2
             }
         }
 
-        // Supprision Data Button Click Event
+        // Supprimer Data Button Click Event
         private void btnDeleteData_Click(object sender, EventArgs e)
         {
             if (dataGridView1.SelectedRows.Count > 0)
@@ -121,6 +121,8 @@ namespace WindowsFormsApp2
                 MessageBox.Show("Please select a row to delete.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+        
+        //Updater le Data Button Click Event
         private void btnUpdateData_Click(object sender, EventArgs e)
         {
             if (dataGridView1.SelectedRows.Count > 0)
